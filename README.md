@@ -28,3 +28,6 @@ The architecture is made to handle images of varying demensions, however due to 
 <p align="center">
   <img src="https://github.com/silkdom/Deblur/blob/master/img/0012_25.jpg?raw=true" alt="Comparison"/>
 </p>
+
+## PULSE
+
