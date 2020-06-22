@@ -44,7 +44,10 @@ Implementation is simple, however Google Quota limits often throw the following 
     - Host the files on your personal Google Drive
     - Get shareable links for the two files and replace their id's in the code
 
-The examples provided in the paper illustrated promise, however initial results quickly proved otherwise (see below). Unfortunately the bias of the Flickr Faces HQ database was inhereted by the model, and the network did not perform well on portraits containing people not with caucasian descent.
+The examples provided in the paper illustrated promise, however initial results quickly proved otherwise (see below). Unfortunately the bias of the Flickr Faces HQ database was inhereted by the model, and the network did not perform well on portraits containing people not with caucasian descent. Little experimentation was done after the initial results. 
 
-
+                          Before                                                   After 
+<p align="center">
+  <img src="https://github.com/silkdom/Deblur/blob/master/img/comb1.jpg?raw=true" alt="Comparison"/>
+</p>
 
