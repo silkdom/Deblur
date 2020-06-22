@@ -1,5 +1,5 @@
 # Deblur
-Despite being somewhat experienced with analog photography, the first role of my new camera (Canon AE-1 Program) came out blurry. I have since replaced the lense and have corrected the issue, but wanted to salvage some pics from the nice day out in the Canadian Rockies. Keen to extend my deep learning knowledge and implementation skills I experimented with a few methods, including DeblurGANv2 (before/after example below) and PULSE. 
+I recently upgraded my Pentax K1000 for a Canon AE-1 Program, but unfortunately the first role of film came out blurry. I have since replaced the lense and have corrected the issue, but wanted to salvage some pics from the nice day out in the Canadian Rockies. Keen to extend my deep learning knowledge and implementation skills I experimented with a few methods, including DeblurGANv2 (before/after example below) and PULSE. 
 
                           Before                                                   After 
 <p align="center">
