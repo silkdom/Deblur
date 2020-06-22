@@ -14,10 +14,10 @@ Implementation of this network was straightforward;
 
 
 
-Minus an annoying error regarding a certificate verification failure.  This was caused by an expired secutirity certificate on the website Pytorch hosted the inceptionresnetv2 pretrained model on. The work-around was to fork the repo and subsitute the url for a functioning host. 
+Minus an annoying error regarding a certificate verification failure. This was caused by an expired secutirity certificate on the website Pytorch hosted the inceptionresnetv2 pretrained model on. The work-around was to fork the repo and subsitute the url for a functioning host. 
 Working Repo: [https://github.com/silkdom/Pytorch_pretrained_models](https://github.com/silkdom/Pytorch_pretrained_models)
 
-The architecture is made to handle images of varying demensions, however due to the PatchGAN discriminator using 'patches' of 70x70 deblur success was not uniform accross all sizes attempted. For instance the initial attempt of an image of size 3024x2005 did not provide noticeablke deblur effect. Scaling the images down to 1024x678 proior to DebelurGANv2 provided the best results. Whilst not completely mending my crappy photography the difference is definitely notieable! 
+The architecture is made to handle images of varying demensions, however due to the PatchGAN discriminator using 'patches' of 70x70 deblur success was not uniform accross all sizes attempted. For instance the initial attempt of an image of size 3024x2005 did not provide noticeablke deblur effect. Scaling the images down to 1024x678 proior to DebelurGANv2 provided the best results. Whilst not completely mending my crappy photography the difference is definitely noticeable! 
 
                           Before                                                   After 
 <p align="center">
