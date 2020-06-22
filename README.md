@@ -31,3 +31,20 @@ The architecture is made to handle images of varying demensions, however due to 
 
 ## PULSE
 
+Repo: [https://github.com/adamian98/pulse](https://github.com/adamian98/pulse)  
+
+Testing was undertaken in Colab:
+
+[![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/github/tg-bomze/Face-Depixelizer/blob/master/Face_Depixelizer_Eng.ipynb#scrollTo=fU0aGtD4Nl4W)
+
+Implementation is simple, however Google Quota limits often throw the following errors: "Google Drive Quota Exceeded" or "No such file or directory: '/content/pulse/runs/face.png'". This can be overcome by either;
+- Trying again periodically throughout the day (Quota's reset 24hr after the limit is reached)
+- Editing the PULSE.py file in the repo
+    - Go to the two google drive links and download the respective files 
+    - Host the files on your personal Google Drive
+    - Get shareable links for the two files and replace their id's in the code
+
+The examples provided in the paper illustrated promise, however initial results quickly proved otherwise (see below). Unfortunately the bias of the Flickr Faces HQ database was inhereted by the model, and the network did not perform well on portraits containing people not with caucasian descent.
+
+
+
