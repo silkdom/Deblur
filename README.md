@@ -20,7 +20,7 @@ Testing was undertaken in paperspace by;
 
 
 
-This implementation was straightforward minus an annoying error regarding a certificate verification failure. This was caused by an expired secutirity certificate on the website Pytorch hosted the inceptionresnetv2 pretrained model on. The work-around was to fork the repo and subsitute the url for a functioning host. This in conjunction with other issues regarding incorrect package versions outlined in the requirements.txt prompted me to create a demo Colab notebook for easy testing of the network: [https://github.com/silkdom/Deblur/blob/master/DeblurGANv2_Demo.ipynb](https://github.com/silkdom/Deblur/blob/master/DeblurGANv2_Demo.ipynb)
+This implementation was rather irritating given a persistant error regarding a certificate verification failure. This was caused by an expired secutirity certificate on the website Pytorch hosted the inceptionresnetv2 pretrained model on. The work-around was to fork the repo and subsitute the url for a functioning host. This in conjunction with other issues regarding incorrect package versions outlined in the requirements.txt prompted me to create a demo Colab notebook for easy testing of the network: [https://github.com/silkdom/Deblur/blob/master/DeblurGANv2_Demo.ipynb](https://github.com/silkdom/Deblur/blob/master/DeblurGANv2_Demo.ipynb)
 
 [![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/github/silkdom/Deblur/blob/master/DeblurGANv2_Demo.ipynb#scrollTo=fU0aGtD4Nl4W)
 
