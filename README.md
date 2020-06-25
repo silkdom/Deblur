@@ -12,6 +12,7 @@ Repo: [https://github.com/TAMU-VITA/DeblurGANv2](https://github.com/TAMU-VITA/De
 
 Testing was undertaken in paperspace by; 
 - Cloning the repository to home drive 
+- Downloading the neccisary packages outlined in requirements.txt
 - Downloading the pretrained model weights .h5 file (hyperlink broken - copy/paste url instead)
 - Specifying the weights path in predict.py  
 - Uploading the the pictures to be deblurred
@@ -21,6 +22,12 @@ Testing was undertaken in paperspace by;
 
 This implementation was straightforward minus an annoying error regarding a certificate verification failure. This was caused by an expired secutirity certificate on the website Pytorch hosted the inceptionresnetv2 pretrained model on. The work-around was to fork the repo and subsitute the url for a functioning host. 
 Working Repo: [https://github.com/silkdom/Pytorch_pretrained_models](https://github.com/silkdom/Pytorch_pretrained_models)
+
+Other issues such as incorrect package versions outlined in the requirements.txt prompted me to create a demo Colab notebook for easy testing of the network.
+
+[![Run in Google Colab](https://img.shields.io/badge/Colab-Run_in_Google_Colab-blue?logo=Google&logoColor=FDBA18)](https://colab.research.google.com/github/tg-bomze/Face-Depixelizer/blob/master/Face_Depixelizer_Eng.ipynb#scrollTo=fU0aGtD4Nl4W)
+
+https://github.com/silkdom/Deblur/blob/master/DeblurGANv2_Demo.ipynb
 
 The architecture is made to handle images of varying demensions, however due to the PatchGAN discriminator using 'patches' of 70x70 deblur success was not uniform accross all sizes attempted. For instance the initial attempt of an image of size 3024x2005 did not provide noticeablke deblur effect. Scaling the images down to 1024x678 proior to DebelurGANv2 provided the best results. Whilst not completely mending my crappy photography the difference is definitely noticeable! 
 
